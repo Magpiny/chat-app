@@ -3,7 +3,7 @@
   font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03125em;
 }
 
 .ce-chat-list {
@@ -16,8 +16,8 @@
 
 .ce-active-chat-card {
   background-color: #cabcdc !important;
-  border: 4px solid #cabcdc !important;
-  border-radius: 0px !important;
+  border: 0.25em solid #cabcdc !important;
+  border-radius: 0em !important;
 }
 
 .ce-chat-subtitle-text {
@@ -25,24 +25,24 @@
 }
 
 .ce-chat-form-container {
-  padding-bottom: 20px !important;
+  padding-bottom: 1.25em !important;
 }
 
 .ce-text-input {
-  border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border-radius: 0.375em !important;
+  border: 0.0625em solid #3b2a50 !important;
 }
 
 .ce-primary-button {
-  border-radius: 6px !important;
+  border-radius: 0.375em !important;
   background-color: #7554a0 !important;
   position: relative;
-  bottom: 1px;
+  bottom: 0.0625em;
 }
 
 .ce-danger-button {
   background-color: white !important;
-  border-radius: 22px !important;
+  border-radius: 1.375em !important;
 }
 
 .ce-settings {
@@ -50,18 +50,18 @@
 }
 
 .ce-autocomplete-input {
-  border-radius: 6px !important;
+  border-radius: 0.375em !important;
   border: 1px solid #3b2a50 !important;
 }
 
 .ce-autocomplete-options {
-  border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border-radius: 0.375em !important;
+  border: 0.0625em solid #3b2a50 !important;
   background-color: white !important;
 }
 
 .ce-chat-settings-container {
-  padding-top: 12px !important;
+  padding-top: 0.75em !important;
 }
 
 .ce-chat-avatars-row {
@@ -79,28 +79,28 @@
 
 .chat-title-container {
   width: calc(100% - 36px);
-  padding: 18px;
+  padding: 1.125em;
   text-align: center;
 }
 
 .chat-title {
   color: #7554a0;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .chat-subtitle {
   color: #7554a0;
   font-weight: 600;
-  font-size: 12px;
-  padding-top: 4px;
+  font-size: 0.75em;
+  padding-top: 0.25em;
 }
 
 .message-row {
   float: left;
   width: 100%;
   display: flex;
-  margin-left: 18px;
+  margin-left: 1.125em;
 }
 
 .message-block {
@@ -109,99 +109,99 @@
 }
 
 .message-avatar {
-  width: 44px;
-  height: 44px;
-  border-radius: 22px;
+  width: 2.75em;
+  height: 2.75em;
+  border-radius: 1.375em;
   color: white;
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 48px;
+  background-size: 3em;
 }
 
 .message {
-  padding: 12px;
-  font-size: 16px;
-  border-radius: 6px;
+  padding: 0.75em;
+  font-size: 1em;
+  border-radius: 0.375em;
   max-width: 60%;
 }
 
 .message-image {
-  margin-right: 18px;
+  margin-right: 1.125em;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 0.375em;
   height: 30vw;
   /* width: 30vw; */
-  max-height: 200px;
-  max-width: 200px;
-  min-height: 100px;
-  min-width: 100px;
+  max-height: 12.5em;
+  max-width: 12.5em;
+  min-height: 6.25em;
+  min-width: 6.25em;
 }
 
 .read-receipts {
   position: relative;
-  bottom: 6px;
+  bottom: 0.375em;
 }
 
 .read-receipt {
-  width: 13px;
-  height: 13px;
-  border-radius: 13px;
-  margin: 1.5px;
+  width: 0.8125em;
+  height: 0.8125em;
+  border-radius: 0.8125em;
+  margin: 0.09375em;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 14px;
+  background-size: 0.875em;
 }
 
 .message-form-container {
   position: absolute;
   bottom: 0px;
   width: calc(100% - 36px);
-  padding: 18px;
+  padding: 1.125em;
   background-color: rgb(240, 240, 240);
 }
 
 .message-form {
   overflow: hidden;
   border-radius: 6px;
-  border: 1px solid #3b2a50;
+  border: 0.0625em solid #3b2a50;
   background-color: white;
 }
 
 .message-input {
-  height: 40px;
-  width: calc(100% - 132px);
+  height: 2.5em;
+  width: calc(100% - 8.25em);
   background-color: white;
-  border: 1px solid white;
-  padding: 0px 18px;
+  border: 0.0625em solid white;
+  padding: 0px 1.125em;
   outline: none;
-  font-size: 15px;
+  font-size: 0.9375em;
 }
 
 .image-button {
   cursor: pointer;
-  padding: 0px 12px;
+  padding: 0em 0.75em;
   height: 100%;
 }
 
 .send-button {
-  height: 42px;
+  height: 2.625em;
   background-color: white;
-  border: 1px solid white;
-  padding: 0px 18px;
+  border: 0.0625em solid white;
+  padding: 0px 1.125em;
   cursor: pointer;
 }
 
 .send-icon {
-  top: 1px;
+  top: 0.0625em;
   position: relative;
   transform: rotate(-90deg);
 }
 
 .picture-icon {
-  top: 1px;
+  top: 0.0625em;
   position: relative;
-  font-size: 14px;
+  font-size: 0.875em;
 }
 
 /* FORM STYLES */
@@ -216,7 +216,7 @@
 
 .wrapper {
   height: 100vh;
-    width: 100%;
+  width: 100%;
   background: rgb(117,84,160);
   background: linear-gradient(90deg, rgba(117,84,160,1) 7%, rgba(117,84,160,1) 17%, rgba(106,95,168,1) 29%, rgba(99,103,174,1) 44%, rgba(87,116,184,1) 66%, rgba(70,135,198,1) 83%, rgba(44,163,219,1) 96%, rgba(22,188,237,1) 100%, rgba(0,212,255,1) 100%);  
   display: flex;
@@ -237,34 +237,34 @@
   border-bottom: 0.3rem solid transparent;
   transition: all 0.3s;
   outline: none;
-  margin-bottom: 25px;
+  margin-bottom: 1.5625em;
 }
 
 .form {
-  width: 400px;
+  width: 25em;
 }
 
 .title {
   text-align: center;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 1.875em;
   width: 100%;
   font-size: 2.3em;;
 }
 
 .button {
-  border-radius: 4px;
+  border-radius: 0.25em;
   border: none;
   background-color: white;
   color: black;
   text-align: center;
   text-transform: uppercase;
-  font-size: 22px;
-  padding: 20px;
-  width: 200px;
+  font-size: 1.375em;
+  padding: 1.25em;
+  width: 12.5em;
   transition: all 0.4s;
   cursor: pointer;
-  margin: 5px;
+  margin: 0.3125em;
   width: 90%;
 }
 .button span {
@@ -278,11 +278,11 @@
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
+  right: -1.25em;
   transition: 0.5s;
 }
 .button:hover span {
-  padding-right: 25px;
+  padding-right: 1.5625em;
 }
 .button:hover span:after {
   opacity: 1;
@@ -292,5 +292,5 @@
 .error {
   color: red;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25em;
 }
